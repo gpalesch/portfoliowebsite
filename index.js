@@ -249,17 +249,17 @@ document.addEventListener('DOMContentLoaded', function() {
   const mail = document.getElementById('mail');
   const linkedIn = document.getElementById('linkedIn');
   const gitHub = document.getElementById('gitHub');
-  const recipient = 'gishpa@outlook.fr';
+  const recipient = 'example@mail.com';
 
   function links() {
     mail.addEventListener('click', () => {
       window.open(`mailto:${recipient}`, '_blank');
     });
     linkedIn.addEventListener('click', () => {
-      window.open('https://www.linkedin.com/in/gina-palesch-b02081247/', '_blank');
+      window.open('https://www.linkedin.com/in/profile', '_blank');
     });
     gitHub.addEventListener('click', () => {
-      window.open('https://github.com/gpalesch', '_blank');
+      window.open('https://github.com/profile', '_blank');
     });
   }
 
@@ -277,16 +277,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function projects() {
     anim.addEventListener('click', () => {
-      window.open('https://drive.google.com/file/d/1m-Pj55QaiOV4bVI_znbBpGtimmRtdiV-/view?usp=sharing', '_blank');
+      window.open('https://drive.google.com/file', '_blank');
     });
     web.addEventListener('click', () => {
-      window.open('https://github.com/gpalesch/firstwebsite', '_blank');
+      window.open('https://github.com/profile/page', '_blank');
     });
     mobile.addEventListener('click', () => {
-      window.open('https://loom.com/share/folder/9f51bf1738e34e168f3edab32d390ee2', '_blank');
+      window.open('https://loom.com/share/folder', '_blank');
     });
     ux.addEventListener('click', () => {
-      window.open('https://drive.google.com/file/d/1WV9iBZBI_bnHFPIqZymlOwg15BkJA5qF/view?usp=sharing', '_blank');
+      window.open('https://drive.google.com/file', '_blank');
     });
     unity.addEventListener('click', () => {
       window.open('.', '_blank');
